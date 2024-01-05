@@ -85,6 +85,7 @@ export default function DashboardLayout({
     Cookies.remove("mvdb_name");
     router.push("/");
   };
+
   return (
     <Layout className={Styles.layout}>
       {contextHolder}
